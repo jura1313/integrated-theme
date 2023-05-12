@@ -1,0 +1,168 @@
+2023-02-25T04:26:56+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "your_theme_pagination" not found or invalid function name in /var/www/html/integrated-theme/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /var/www/html/integrated-theme/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#1 /var/www/html/integrated-theme/wp-includes/plugin.php(517): WP_Hook->do_action()
+#2 /var/www/html/integrated-theme/wp-settings.php(595): do_action()
+#3 /var/www/html/integrated-theme/wp-config.php(96): require_once('...')
+#4 /var/www/html/integrated-theme/wp-load.php(50): require_once('...')
+#5 /var/www/html/integrated-theme/wp-blog-header.php(13): require_once('...')
+#6 /var/www/html/integrated-theme/index.php(17): require('...')
+#7 {main}
+  thrown in /var/www/html/integrated-theme/wp-includes/class-wp-hook.php on line 308
+
+2023-02-25T04:26:58+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "your_theme_pagination" not found or invalid function name in /var/www/html/integrated-theme/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /var/www/html/integrated-theme/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#1 /var/www/html/integrated-theme/wp-includes/plugin.php(517): WP_Hook->do_action()
+#2 /var/www/html/integrated-theme/wp-settings.php(595): do_action()
+#3 /var/www/html/integrated-theme/wp-config.php(96): require_once('...')
+#4 /var/www/html/integrated-theme/wp-load.php(50): require_once('...')
+#5 /var/www/html/integrated-theme/wp-blog-header.php(13): require_once('...')
+#6 /var/www/html/integrated-theme/index.php(17): require('...')
+#7 {main}
+  thrown in /var/www/html/integrated-theme/wp-includes/class-wp-hook.php on line 308
+
+2023-02-25T04:33:45+00:00 CRITICAL Uncaught Error: Call to undefined function the_post_pagination() in /var/www/html/integrated-theme/wp-content/themes/foodka/content-product.php:83
+Stack trace:
+#0 /var/www/html/integrated-theme/wp-includes/template.php(785): require()
+#1 /var/www/html/integrated-theme/wp-includes/template.php(718): load_template()
+#2 /var/www/html/integrated-theme/wp-includes/general-template.php(204): locate_template()
+#3 /var/www/html/integrated-theme/wp-content/themes/foodka/index.php(8): get_template_part()
+#4 /var/www/html/integrated-theme/wp-includes/template-loader.php(106): include('...')
+#5 /var/www/html/integrated-theme/wp-blog-header.php(19): require_once('...')
+#6 /var/www/html/integrated-theme/index.php(17): require('...')
+#7 {main}
+  thrown in /var/www/html/integrated-theme/wp-content/themes/foodka/content-product.php on line 83
+
+2023-02-25T04:33:46+00:00 CRITICAL Uncaught Error: Call to undefined function the_post_pagination() in /var/www/html/integrated-theme/wp-content/themes/foodka/content-product.php:83
+Stack trace:
+#0 /var/www/html/integrated-theme/wp-includes/template.php(785): require()
+#1 /var/www/html/integrated-theme/wp-includes/template.php(718): load_template()
+#2 /var/www/html/integrated-theme/wp-includes/general-template.php(204): locate_template()
+#3 /var/www/html/integrated-theme/wp-content/themes/foodka/index.php(8): get_template_part()
+#4 /var/www/html/integrated-theme/wp-includes/template-loader.php(106): include('...')
+#5 /var/www/html/integrated-theme/wp-blog-header.php(19): require_once('...')
+#6 /var/www/html/integrated-theme/index.php(17): require('...')
+#7 {main}
+  thrown in /var/www/html/integrated-theme/wp-content/themes/foodka/content-product.php on line 83
+
+2023-02-25T04:34:06+00:00 CRITICAL Uncaught Error: Call to undefined function the_post_pagination() in /var/www/html/integrated-theme/wp-content/themes/foodka/content-blog.php:208
+Stack trace:
+#0 /var/www/html/integrated-theme/wp-includes/template.php(785): require()
+#1 /var/www/html/integrated-theme/wp-includes/template.php(718): load_template()
+#2 /var/www/html/integrated-theme/wp-includes/general-template.php(204): locate_template()
+#3 /var/www/html/integrated-theme/wp-content/themes/foodka/index.php(21): get_template_part()
+#4 /var/www/html/integrated-theme/wp-includes/template-loader.php(106): include('...')
+#5 /var/www/html/integrated-theme/wp-blog-header.php(19): require_once('...')
+#6 /var/www/html/integrated-theme/index.php(17): require('...')
+#7 {main}
+  thrown in /var/www/html/integrated-theme/wp-content/themes/foodka/content-blog.php on line 208
+
+2023-02-25T04:36:00+00:00 CRITICAL Uncaught Error: Call to undefined function paginate_link() in /var/www/html/integrated-theme/wp-content/themes/foodka/content-product.php:83
+Stack trace:
+#0 /var/www/html/integrated-theme/wp-includes/template.php(785): require()
+#1 /var/www/html/integrated-theme/wp-includes/template.php(718): load_template()
+#2 /var/www/html/integrated-theme/wp-includes/general-template.php(204): locate_template()
+#3 /var/www/html/integrated-theme/wp-content/themes/foodka/index.php(8): get_template_part()
+#4 /var/www/html/integrated-theme/wp-includes/template-loader.php(106): include('...')
+#5 /var/www/html/integrated-theme/wp-blog-header.php(19): require_once('...')
+#6 /var/www/html/integrated-theme/index.php(17): require('...')
+#7 {main}
+  thrown in /var/www/html/integrated-theme/wp-content/themes/foodka/content-product.php on line 83
+
+2023-02-25T04:36:35+00:00 CRITICAL Uncaught Error: Call to undefined function the_post_pagination() in /var/www/html/integrated-theme/wp-content/themes/foodka/content-product.php:83
+Stack trace:
+#0 /var/www/html/integrated-theme/wp-includes/template.php(785): require()
+#1 /var/www/html/integrated-theme/wp-includes/template.php(718): load_template()
+#2 /var/www/html/integrated-theme/wp-includes/general-template.php(204): locate_template()
+#3 /var/www/html/integrated-theme/wp-content/themes/foodka/index.php(8): get_template_part()
+#4 /var/www/html/integrated-theme/wp-includes/template-loader.php(106): include('...')
+#5 /var/www/html/integrated-theme/wp-blog-header.php(19): require_once('...')
+#6 /var/www/html/integrated-theme/index.php(17): require('...')
+#7 {main}
+  thrown in /var/www/html/integrated-theme/wp-content/themes/foodka/content-product.php on line 83
+
+2023-02-25T04:46:04+00:00 CRITICAL Uncaught Error: Call to undefined function paginate_link() in /var/www/html/integrated-theme/wp-content/themes/foodka/content-product.php:80
+Stack trace:
+#0 /var/www/html/integrated-theme/wp-includes/template.php(785): require()
+#1 /var/www/html/integrated-theme/wp-includes/template.php(718): load_template()
+#2 /var/www/html/integrated-theme/wp-includes/general-template.php(204): locate_template()
+#3 /var/www/html/integrated-theme/wp-content/themes/foodka/index.php(8): get_template_part()
+#4 /var/www/html/integrated-theme/wp-includes/template-loader.php(106): include('...')
+#5 /var/www/html/integrated-theme/wp-blog-header.php(19): require_once('...')
+#6 /var/www/html/integrated-theme/index.php(17): require('...')
+#7 {main}
+  thrown in /var/www/html/integrated-theme/wp-content/themes/foodka/content-product.php on line 80
+
+2023-02-25T04:46:05+00:00 CRITICAL Uncaught Error: Call to undefined function paginate_link() in /var/www/html/integrated-theme/wp-content/themes/foodka/content-product.php:80
+Stack trace:
+#0 /var/www/html/integrated-theme/wp-includes/template.php(785): require()
+#1 /var/www/html/integrated-theme/wp-includes/template.php(718): load_template()
+#2 /var/www/html/integrated-theme/wp-includes/general-template.php(204): locate_template()
+#3 /var/www/html/integrated-theme/wp-content/themes/foodka/index.php(8): get_template_part()
+#4 /var/www/html/integrated-theme/wp-includes/template-loader.php(106): include('...')
+#5 /var/www/html/integrated-theme/wp-blog-header.php(19): require_once('...')
+#6 /var/www/html/integrated-theme/index.php(17): require('...')
+#7 {main}
+  thrown in /var/www/html/integrated-theme/wp-content/themes/foodka/content-product.php on line 80
+
+2023-02-25T04:46:13+00:00 CRITICAL Uncaught Error: Call to undefined function paginate_link() in /var/www/html/integrated-theme/wp-content/themes/foodka/content-product.php:80
+Stack trace:
+#0 /var/www/html/integrated-theme/wp-includes/template.php(785): require()
+#1 /var/www/html/integrated-theme/wp-includes/template.php(718): load_template()
+#2 /var/www/html/integrated-theme/wp-includes/general-template.php(204): locate_template()
+#3 /var/www/html/integrated-theme/wp-content/themes/foodka/index.php(8): get_template_part()
+#4 /var/www/html/integrated-theme/wp-includes/template-loader.php(106): include('...')
+#5 /var/www/html/integrated-theme/wp-blog-header.php(19): require_once('...')
+#6 /var/www/html/integrated-theme/index.php(17): require('...')
+#7 {main}
+  thrown in /var/www/html/integrated-theme/wp-content/themes/foodka/content-product.php on line 80
+
+2023-02-25T04:46:14+00:00 CRITICAL Uncaught Error: Call to undefined function paginate_link() in /var/www/html/integrated-theme/wp-content/themes/foodka/content-product.php:80
+Stack trace:
+#0 /var/www/html/integrated-theme/wp-includes/template.php(785): require()
+#1 /var/www/html/integrated-theme/wp-includes/template.php(718): load_template()
+#2 /var/www/html/integrated-theme/wp-includes/general-template.php(204): locate_template()
+#3 /var/www/html/integrated-theme/wp-content/themes/foodka/index.php(8): get_template_part()
+#4 /var/www/html/integrated-theme/wp-includes/template-loader.php(106): include('...')
+#5 /var/www/html/integrated-theme/wp-blog-header.php(19): require_once('...')
+#6 /var/www/html/integrated-theme/index.php(17): require('...')
+#7 {main}
+  thrown in /var/www/html/integrated-theme/wp-content/themes/foodka/content-product.php on line 80
+
+2023-02-25T04:46:19+00:00 CRITICAL Uncaught Error: Call to undefined function paginate_link() in /var/www/html/integrated-theme/wp-content/themes/foodka/content-product.php:80
+Stack trace:
+#0 /var/www/html/integrated-theme/wp-includes/template.php(785): require()
+#1 /var/www/html/integrated-theme/wp-includes/template.php(718): load_template()
+#2 /var/www/html/integrated-theme/wp-includes/general-template.php(204): locate_template()
+#3 /var/www/html/integrated-theme/wp-content/themes/foodka/index.php(8): get_template_part()
+#4 /var/www/html/integrated-theme/wp-includes/template-loader.php(106): include('...')
+#5 /var/www/html/integrated-theme/wp-blog-header.php(19): require_once('...')
+#6 /var/www/html/integrated-theme/index.php(17): require('...')
+#7 {main}
+  thrown in /var/www/html/integrated-theme/wp-content/themes/foodka/content-product.php on line 80
+
+2023-02-25T04:46:20+00:00 CRITICAL Uncaught Error: Call to undefined function paginate_link() in /var/www/html/integrated-theme/wp-content/themes/foodka/content-product.php:80
+Stack trace:
+#0 /var/www/html/integrated-theme/wp-includes/template.php(785): require()
+#1 /var/www/html/integrated-theme/wp-includes/template.php(718): load_template()
+#2 /var/www/html/integrated-theme/wp-includes/general-template.php(204): locate_template()
+#3 /var/www/html/integrated-theme/wp-content/themes/foodka/index.php(8): get_template_part()
+#4 /var/www/html/integrated-theme/wp-includes/template-loader.php(106): include('...')
+#5 /var/www/html/integrated-theme/wp-blog-header.php(19): require_once('...')
+#6 /var/www/html/integrated-theme/index.php(17): require('...')
+#7 {main}
+  thrown in /var/www/html/integrated-theme/wp-content/themes/foodka/content-product.php on line 80
+
+2023-02-25T04:46:26+00:00 CRITICAL Uncaught Error: Call to undefined function paginate_link() in /var/www/html/integrated-theme/wp-content/themes/foodka/content-product.php:80
+Stack trace:
+#0 /var/www/html/integrated-theme/wp-includes/template.php(785): require()
+#1 /var/www/html/integrated-theme/wp-includes/template.php(718): load_template()
+#2 /var/www/html/integrated-theme/wp-includes/general-template.php(204): locate_template()
+#3 /var/www/html/integrated-theme/wp-content/themes/foodka/index.php(8): get_template_part()
+#4 /var/www/html/integrated-theme/wp-includes/template-loader.php(106): include('...')
+#5 /var/www/html/integrated-theme/wp-blog-header.php(19): require_once('...')
+#6 /var/www/html/integrated-theme/index.php(17): require('...')
+#7 {main}
+  thrown in /var/www/html/integrated-theme/wp-content/themes/foodka/content-product.php on line 80
+

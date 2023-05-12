@@ -1,0 +1,202 @@
+2023-03-01T02:33:05+00:00 CRITICAL syntax error, unexpected variable "$loop", expecting ")" in /var/www/html/integrated-theme/wp-content/themes/foodka/content-blog.php on line 142
+
+2023-03-01T02:33:17+00:00 CRITICAL syntax error, unexpected variable "$loop", expecting ")" in /var/www/html/integrated-theme/wp-content/themes/foodka/content-blog.php on line 142
+
+2023-03-01T02:33:22+00:00 CRITICAL syntax error, unexpected variable "$loop", expecting ")" in /var/www/html/integrated-theme/wp-content/themes/foodka/content-blog.php on line 142
+
+2023-03-01T02:33:26+00:00 CRITICAL syntax error, unexpected variable "$loop", expecting ")" in /var/www/html/integrated-theme/wp-content/themes/foodka/content-blog.php on line 142
+
+2023-03-01T02:54:31+00:00 CRITICAL syntax error, unexpected token "endforeach", expecting end of file in /var/www/html/integrated-theme/wp-content/themes/foodka/content-blog.php on line 155
+
+2023-03-01T03:05:38+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /var/www/html/integrated-theme/wp-content/themes/foodka/content-blog.php:166
+Stack trace:
+#0 /var/www/html/integrated-theme/wp-includes/template.php(785): require()
+#1 /var/www/html/integrated-theme/wp-includes/template.php(718): load_template()
+#2 /var/www/html/integrated-theme/wp-includes/general-template.php(204): locate_template()
+#3 /var/www/html/integrated-theme/wp-content/themes/foodka/index.php(21): get_template_part()
+#4 /var/www/html/integrated-theme/wp-includes/template-loader.php(106): include('...')
+#5 /var/www/html/integrated-theme/wp-blog-header.php(19): require_once('...')
+#6 /var/www/html/integrated-theme/index.php(17): require('...')
+#7 {main}
+  thrown in /var/www/html/integrated-theme/wp-content/themes/foodka/content-blog.php on line 166
+
+2023-03-01T03:06:46+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /var/www/html/integrated-theme/wp-content/themes/foodka/content-blog.php:166
+Stack trace:
+#0 /var/www/html/integrated-theme/wp-includes/template.php(785): require()
+#1 /var/www/html/integrated-theme/wp-includes/template.php(718): load_template()
+#2 /var/www/html/integrated-theme/wp-includes/general-template.php(204): locate_template()
+#3 /var/www/html/integrated-theme/wp-content/themes/foodka/index.php(21): get_template_part()
+#4 /var/www/html/integrated-theme/wp-includes/template-loader.php(106): include('...')
+#5 /var/www/html/integrated-theme/wp-blog-header.php(19): require_once('...')
+#6 /var/www/html/integrated-theme/index.php(17): require('...')
+#7 {main}
+  thrown in /var/www/html/integrated-theme/wp-content/themes/foodka/content-blog.php on line 166
+
+2023-03-01T03:15:29+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /var/www/html/integrated-theme/wp-content/themes/foodka/content-blog.php:150
+Stack trace:
+#0 /var/www/html/integrated-theme/wp-includes/template.php(785): require()
+#1 /var/www/html/integrated-theme/wp-includes/template.php(718): load_template()
+#2 /var/www/html/integrated-theme/wp-includes/general-template.php(204): locate_template()
+#3 /var/www/html/integrated-theme/wp-content/themes/foodka/index.php(21): get_template_part()
+#4 /var/www/html/integrated-theme/wp-includes/template-loader.php(106): include('...')
+#5 /var/www/html/integrated-theme/wp-blog-header.php(19): require_once('...')
+#6 /var/www/html/integrated-theme/index.php(17): require('...')
+#7 {main}
+  thrown in /var/www/html/integrated-theme/wp-content/themes/foodka/content-blog.php on line 150
+
+2023-03-01T03:15:46+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /var/www/html/integrated-theme/wp-content/themes/foodka/content-blog.php:150
+Stack trace:
+#0 /var/www/html/integrated-theme/wp-includes/template.php(785): require()
+#1 /var/www/html/integrated-theme/wp-includes/template.php(718): load_template()
+#2 /var/www/html/integrated-theme/wp-includes/general-template.php(204): locate_template()
+#3 /var/www/html/integrated-theme/wp-content/themes/foodka/index.php(21): get_template_part()
+#4 /var/www/html/integrated-theme/wp-includes/template-loader.php(106): include('...')
+#5 /var/www/html/integrated-theme/wp-blog-header.php(19): require_once('...')
+#6 /var/www/html/integrated-theme/index.php(17): require('...')
+#7 {main}
+  thrown in /var/www/html/integrated-theme/wp-content/themes/foodka/content-blog.php on line 150
+
+2023-03-01T03:16:05+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /var/www/html/integrated-theme/wp-content/themes/foodka/content-blog.php:150
+Stack trace:
+#0 /var/www/html/integrated-theme/wp-includes/template.php(785): require()
+#1 /var/www/html/integrated-theme/wp-includes/template.php(718): load_template()
+#2 /var/www/html/integrated-theme/wp-includes/general-template.php(204): locate_template()
+#3 /var/www/html/integrated-theme/wp-content/themes/foodka/index.php(21): get_template_part()
+#4 /var/www/html/integrated-theme/wp-includes/template-loader.php(106): include('...')
+#5 /var/www/html/integrated-theme/wp-blog-header.php(19): require_once('...')
+#6 /var/www/html/integrated-theme/index.php(17): require('...')
+#7 {main}
+  thrown in /var/www/html/integrated-theme/wp-content/themes/foodka/content-blog.php on line 150
+
+2023-03-01T03:36:08+00:00 CRITICAL Uncaught Error: Object of class WP_Term could not be converted to string in /var/www/html/integrated-theme/wp-content/themes/foodka/content-blog.php:169
+Stack trace:
+#0 /var/www/html/integrated-theme/wp-includes/template.php(785): require()
+#1 /var/www/html/integrated-theme/wp-includes/template.php(718): load_template()
+#2 /var/www/html/integrated-theme/wp-includes/general-template.php(204): locate_template()
+#3 /var/www/html/integrated-theme/wp-content/themes/foodka/index.php(21): get_template_part()
+#4 /var/www/html/integrated-theme/wp-includes/template-loader.php(106): include('...')
+#5 /var/www/html/integrated-theme/wp-blog-header.php(19): require_once('...')
+#6 /var/www/html/integrated-theme/index.php(17): require('...')
+#7 {main}
+  thrown in /var/www/html/integrated-theme/wp-content/themes/foodka/content-blog.php on line 169
+
+2023-03-01T03:36:08+00:00 CRITICAL Uncaught Error: Object of class WP_Term could not be converted to string in /var/www/html/integrated-theme/wp-content/themes/foodka/content-blog.php:169
+Stack trace:
+#0 /var/www/html/integrated-theme/wp-includes/template.php(785): require()
+#1 /var/www/html/integrated-theme/wp-includes/template.php(718): load_template()
+#2 /var/www/html/integrated-theme/wp-includes/general-template.php(204): locate_template()
+#3 /var/www/html/integrated-theme/wp-content/themes/foodka/index.php(21): get_template_part()
+#4 /var/www/html/integrated-theme/wp-includes/template-loader.php(106): include('...')
+#5 /var/www/html/integrated-theme/wp-blog-header.php(19): require_once('...')
+#6 /var/www/html/integrated-theme/index.php(17): require('...')
+#7 {main}
+  thrown in /var/www/html/integrated-theme/wp-content/themes/foodka/content-blog.php on line 169
+
+2023-03-01T03:37:05+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Term as array in /var/www/html/integrated-theme/wp-content/themes/foodka/content-blog.php:169
+Stack trace:
+#0 /var/www/html/integrated-theme/wp-includes/template.php(785): require()
+#1 /var/www/html/integrated-theme/wp-includes/template.php(718): load_template()
+#2 /var/www/html/integrated-theme/wp-includes/general-template.php(204): locate_template()
+#3 /var/www/html/integrated-theme/wp-content/themes/foodka/index.php(21): get_template_part()
+#4 /var/www/html/integrated-theme/wp-includes/template-loader.php(106): include('...')
+#5 /var/www/html/integrated-theme/wp-blog-header.php(19): require_once('...')
+#6 /var/www/html/integrated-theme/index.php(17): require('...')
+#7 {main}
+  thrown in /var/www/html/integrated-theme/wp-content/themes/foodka/content-blog.php on line 169
+
+2023-03-01T03:37:06+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Term as array in /var/www/html/integrated-theme/wp-content/themes/foodka/content-blog.php:169
+Stack trace:
+#0 /var/www/html/integrated-theme/wp-includes/template.php(785): require()
+#1 /var/www/html/integrated-theme/wp-includes/template.php(718): load_template()
+#2 /var/www/html/integrated-theme/wp-includes/general-template.php(204): locate_template()
+#3 /var/www/html/integrated-theme/wp-content/themes/foodka/index.php(21): get_template_part()
+#4 /var/www/html/integrated-theme/wp-includes/template-loader.php(106): include('...')
+#5 /var/www/html/integrated-theme/wp-blog-header.php(19): require_once('...')
+#6 /var/www/html/integrated-theme/index.php(17): require('...')
+#7 {main}
+  thrown in /var/www/html/integrated-theme/wp-content/themes/foodka/content-blog.php on line 169
+
+2023-03-01T03:37:33+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Term as array in /var/www/html/integrated-theme/wp-content/themes/foodka/content-blog.php:169
+Stack trace:
+#0 /var/www/html/integrated-theme/wp-includes/template.php(785): require()
+#1 /var/www/html/integrated-theme/wp-includes/template.php(718): load_template()
+#2 /var/www/html/integrated-theme/wp-includes/general-template.php(204): locate_template()
+#3 /var/www/html/integrated-theme/wp-content/themes/foodka/index.php(21): get_template_part()
+#4 /var/www/html/integrated-theme/wp-includes/template-loader.php(106): include('...')
+#5 /var/www/html/integrated-theme/wp-blog-header.php(19): require_once('...')
+#6 /var/www/html/integrated-theme/index.php(17): require('...')
+#7 {main}
+  thrown in /var/www/html/integrated-theme/wp-content/themes/foodka/content-blog.php on line 169
+
+2023-03-01T03:37:57+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Term as array in /var/www/html/integrated-theme/wp-content/themes/foodka/content-blog.php:170
+Stack trace:
+#0 /var/www/html/integrated-theme/wp-includes/template.php(785): require()
+#1 /var/www/html/integrated-theme/wp-includes/template.php(718): load_template()
+#2 /var/www/html/integrated-theme/wp-includes/general-template.php(204): locate_template()
+#3 /var/www/html/integrated-theme/wp-content/themes/foodka/index.php(21): get_template_part()
+#4 /var/www/html/integrated-theme/wp-includes/template-loader.php(106): include('...')
+#5 /var/www/html/integrated-theme/wp-blog-header.php(19): require_once('...')
+#6 /var/www/html/integrated-theme/index.php(17): require('...')
+#7 {main}
+  thrown in /var/www/html/integrated-theme/wp-content/themes/foodka/content-blog.php on line 170
+
+2023-03-01T03:40:15+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Term as array in /var/www/html/integrated-theme/wp-content/themes/foodka/content-blog.php:170
+Stack trace:
+#0 /var/www/html/integrated-theme/wp-includes/template.php(785): require()
+#1 /var/www/html/integrated-theme/wp-includes/template.php(718): load_template()
+#2 /var/www/html/integrated-theme/wp-includes/general-template.php(204): locate_template()
+#3 /var/www/html/integrated-theme/wp-content/themes/foodka/index.php(21): get_template_part()
+#4 /var/www/html/integrated-theme/wp-includes/template-loader.php(106): include('...')
+#5 /var/www/html/integrated-theme/wp-blog-header.php(19): require_once('...')
+#6 /var/www/html/integrated-theme/index.php(17): require('...')
+#7 {main}
+  thrown in /var/www/html/integrated-theme/wp-content/themes/foodka/content-blog.php on line 170
+
+2023-03-01T03:40:55+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Term as array in /var/www/html/integrated-theme/wp-content/themes/foodka/content-blog.php:170
+Stack trace:
+#0 /var/www/html/integrated-theme/wp-includes/template.php(785): require()
+#1 /var/www/html/integrated-theme/wp-includes/template.php(718): load_template()
+#2 /var/www/html/integrated-theme/wp-includes/general-template.php(204): locate_template()
+#3 /var/www/html/integrated-theme/wp-content/themes/foodka/index.php(21): get_template_part()
+#4 /var/www/html/integrated-theme/wp-includes/template-loader.php(106): include('...')
+#5 /var/www/html/integrated-theme/wp-blog-header.php(19): require_once('...')
+#6 /var/www/html/integrated-theme/index.php(17): require('...')
+#7 {main}
+  thrown in /var/www/html/integrated-theme/wp-content/themes/foodka/content-blog.php on line 170
+
+2023-03-01T03:42:19+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /var/www/html/integrated-theme/wp-content/themes/foodka/content-blog.php:172
+Stack trace:
+#0 /var/www/html/integrated-theme/wp-includes/template.php(785): require()
+#1 /var/www/html/integrated-theme/wp-includes/template.php(718): load_template()
+#2 /var/www/html/integrated-theme/wp-includes/general-template.php(204): locate_template()
+#3 /var/www/html/integrated-theme/wp-content/themes/foodka/index.php(21): get_template_part()
+#4 /var/www/html/integrated-theme/wp-includes/template-loader.php(106): include('...')
+#5 /var/www/html/integrated-theme/wp-blog-header.php(19): require_once('...')
+#6 /var/www/html/integrated-theme/index.php(17): require('...')
+#7 {main}
+  thrown in /var/www/html/integrated-theme/wp-content/themes/foodka/content-blog.php on line 172
+
+2023-03-01T03:42:20+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /var/www/html/integrated-theme/wp-content/themes/foodka/content-blog.php:172
+Stack trace:
+#0 /var/www/html/integrated-theme/wp-includes/template.php(785): require()
+#1 /var/www/html/integrated-theme/wp-includes/template.php(718): load_template()
+#2 /var/www/html/integrated-theme/wp-includes/general-template.php(204): locate_template()
+#3 /var/www/html/integrated-theme/wp-content/themes/foodka/index.php(21): get_template_part()
+#4 /var/www/html/integrated-theme/wp-includes/template-loader.php(106): include('...')
+#5 /var/www/html/integrated-theme/wp-blog-header.php(19): require_once('...')
+#6 /var/www/html/integrated-theme/index.php(17): require('...')
+#7 {main}
+  thrown in /var/www/html/integrated-theme/wp-content/themes/foodka/content-blog.php on line 172
+
+2023-03-01T03:42:26+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /var/www/html/integrated-theme/wp-content/themes/foodka/content-blog.php:172
+Stack trace:
+#0 /var/www/html/integrated-theme/wp-includes/template.php(785): require()
+#1 /var/www/html/integrated-theme/wp-includes/template.php(718): load_template()
+#2 /var/www/html/integrated-theme/wp-includes/general-template.php(204): locate_template()
+#3 /var/www/html/integrated-theme/wp-content/themes/foodka/index.php(21): get_template_part()
+#4 /var/www/html/integrated-theme/wp-includes/template-loader.php(106): include('...')
+#5 /var/www/html/integrated-theme/wp-blog-header.php(19): require_once('...')
+#6 /var/www/html/integrated-theme/index.php(17): require('...')
+#7 {main}
+  thrown in /var/www/html/integrated-theme/wp-content/themes/foodka/content-blog.php on line 172
+
